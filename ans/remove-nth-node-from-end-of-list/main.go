@@ -7,14 +7,14 @@ import (
 )
 
 func main() {
-	fmt.Println(removeNthFromEnd(NewList([]int{1, 2, 3, 4, 5}), 1))
-	fmt.Println(removeNthFromEnd(NewList([]int{1, 2, 3, 4, 5}), 2))
-	fmt.Println(removeNthFromEnd(NewList([]int{1, 2, 3, 4, 5}), 3))
-	fmt.Println(removeNthFromEnd(NewList([]int{1, 2, 3, 4, 5}), 4))
-	fmt.Println(removeNthFromEnd(NewList([]int{1, 2, 3, 4, 5}), 5))
-	fmt.Println(removeNthFromEnd(NewList([]int{1}), 1))
-	fmt.Println(removeNthFromEnd(NewList([]int{1, 2}), 1))
-	fmt.Println(removeNthFromEnd(NewList([]int{1, 2}), 2))
+	fmt.Println(removeNthFromEnd(NewList(1, 2, 3, 4, 5), 1))
+	fmt.Println(removeNthFromEnd(NewList(1, 2, 3, 4, 5), 2))
+	fmt.Println(removeNthFromEnd(NewList(1, 2, 3, 4, 5), 3))
+	fmt.Println(removeNthFromEnd(NewList(1, 2, 3, 4, 5), 4))
+	fmt.Println(removeNthFromEnd(NewList(1, 2, 3, 4, 5), 5))
+	fmt.Println(removeNthFromEnd(NewList(1), 1))
+	fmt.Println(removeNthFromEnd(NewList(1, 2), 1))
+	fmt.Println(removeNthFromEnd(NewList(1, 2), 2))
 }
 
 /**

@@ -25,7 +25,7 @@ func (n *ListNode) String() string {
 	return s.String()
 }
 
-func NewList(n []int) *ListNode {
+func NewList(n ...int) *ListNode {
 	var root *ListNode
 	for i := len(n) - 1; i >= 0; i-- {
 		root = &ListNode{

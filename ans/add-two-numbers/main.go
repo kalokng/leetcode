@@ -45,6 +45,6 @@ func add(l1, l2 *ListNode, carry int) *ListNode {
 }
 
 func main() {
-	fmt.Println(addTwoNumbers(NewList([]int{2, 4, 3}), NewList([]int{5, 6, 4})))
-	fmt.Println(addTwoNumbers(NewList([]int{9, 9, 9, 9, 9, 9, 9}), NewList([]int{9, 9, 9, 9})))
+	fmt.Println(addTwoNumbers(NewList(2, 4, 3), NewList(5, 6, 4)))
+	fmt.Println(addTwoNumbers(NewList(9, 9, 9, 9, 9, 9, 9), NewList(9, 9, 9, 9)))
 }

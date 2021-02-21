@@ -24,13 +24,14 @@ func max(i, j int) int {
 func maxArea(height []int) int {
 	var area int
 	for len(height) > 0 {
-		if height[0] < height[len(height)-1] {
+		l := len(height) - 1
+		if height[0] < height[l] {
 			area = max(area, height[0]*(len(height)-1))
 			height = height[1:]
 			continue
 		}
-		area = max(area, height[len(height)-1]*(len(height)-1))
-		height = height[:len(height)-1]
+		area = max(area, height[l]*l)
+		height = height[:l]
 	}
 	return area
 }
